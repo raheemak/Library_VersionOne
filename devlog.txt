@@ -1,0 +1,43 @@
+devlog created
+
+5/24-5/26 
+     The whole group emailed one another this long weekend to dicsuss possible topics for the final project. We  were thinking of doing something related to Ferry's because then we could make use of queues and stacks, but we could not figure out exactly what to do. Maria suggested the library proposal after staring at her book shelf.
+
+5/26 
+     We created a teamname and a repo and emailed Mr. Brown our written proposal for our library simulation.
+
+5/27
+     In class we decided what each person would be responsible to work on to start off the project. Fia is going to work on the Book Class. Raheema is going to work on the LIbary class and find a way to read the titles of books and the authors from a file and store that information in an ArrayList. This way all the books that exist for the library will always be available when the program runs. Maria will work on the Character class and the Driver class.
+     Maria:
+     For homework I created the Driver class. This class provides the user with a brief introduction to the program. So far it also allows the user to provide his/her name, gender, and occupation to become a member of the library.
+     Raheema;
+     Librray class created and book list added. Librray class currently parses book list into an array.
+
+5/28
+     In class today we all worked on our separate assignments. Fia worked on editing the list of books and authors which is a text file, and making it easier to parse. Raheema is working on the Character class. Maria is updating devlog.txt.
+     Fia :
+     For homework I added a tiny tiny part of Book.java, with a constructor (not sure how a default constructor would work) and I managed to expand the list of the 100 banned books to the full 230-something, by changing all of the single entries that represented a series into multiple entries, for each book in the series.
+
+5/29
+     Today in class, we mostly just talked about future plans for the project. We decided to stick with the terminal for now, and just make sure that we can get accounts to work (remembering usernames, encrypting passwords...). We were struggling a lot with figuring out what to do when a user "creates" a book to add to the library. Right now, we have a text file with the list of the books. In the code, we're going to write it all into an ArrayList, which would make it much easier to sort, and thus much easier to search with filters and stuff. The thing is, if, when a user creates a book, it's added to the text file, it can't be immediately accessible by the user to check out, because the ArrayList won't have it yet, even though after the program ends, it will be a permanent part of the collection. Oppositely, if the new book is added to the ArrayList, it'd be annoying and time consuming to rewrite the entire text file every time the program is run, just to add the new book to the list. But I think we've found a solution! We can just put a simple if statement, so that when a new book is created, it'll be added to the ArrayList, and then added to the list. If the if statement doesn't pass, there's no need to rewrite the text file, because no book has been added to the directory. --Fia (sorry it's so long)
+
+5/30
+	In class, we finalized design aspects. We split up tasks for the weekend . 
+	
+5/31, 6/01:
+
+	Maria:
+	Uploaded LLNode.java, LLQueue.java, and Queue.java from the basement, to later incorporate into our classes. Updated Book.java by adding all the accessor methods, which makes it much easier for classes to call these. Also added two private instance variables, available and waitList, and wrote a main method to test it.
+	Raheema:
+	Uploaded BinSearch.java from the basement, added toString method to Book.java, added add method to Library.java, made Books.txt easier to parse.
+	Fia:
+	deleted unnecessary class (User.java), found class from interwebz that encrypts passwords (later learned that that's not super important for now.)
+	
+6/02:
+	Maria: It's a hard knock life.
+	Raheema: Cleaned up a lot of the files, added temp folder (v 3.5) did more stuff with binary and toString(), added an issue! (resolved)
+	Fia: fixed literally one line of Book.java, added an issue!, added the encryption stuff to Driver.java (untested)
+	
+6/03:
+
+	
